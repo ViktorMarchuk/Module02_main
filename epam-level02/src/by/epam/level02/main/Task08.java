@@ -15,7 +15,6 @@ public class Task08 {
 		for (int i = 1; i < array.length; i++) {
 			if (array[i] < minValue) {
 				minValue = array[i];
-
 			}
 		}
 		int[] arrayResult = new int[array.length];
@@ -26,6 +25,7 @@ public class Task08 {
 				index++;
 			}
 		}
-		System.out.println("Tne new array is " + Arrays.toString(arrayResult));
+		System.out.println("The new array is " + Arrays.toString(arrayResult));
 	}
 }
+// The new array is [7, 9, -2, -7, 5, 4, 3, -1, 7, 0, 0]

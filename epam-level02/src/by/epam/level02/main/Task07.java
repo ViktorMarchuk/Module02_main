@@ -10,7 +10,7 @@ public class Task07 {
 	public static void main(String[] args) {
 		int[] array = { 1, 3, 2, 6, 8, 4, 2, 3, 10, 7 };
 		int maxValue = array[0] + array[array.length - 1];
-		
+
 		for (int i = 1; i < array.length / 2; i++) {
 			if (array[i] + array[array.length - i - 1] > maxValue) {
 				maxValue = array[i] + array[array.length - i - 1];
@@ -18,5 +18,5 @@ public class Task07 {
 		}
 		System.out.println("Max value " + maxValue);
 	}
-
 }
+// Max value 13

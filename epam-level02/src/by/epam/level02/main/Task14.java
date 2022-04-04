@@ -34,3 +34,10 @@ public class Task14 {
 		}
 	}
 }
+
+// Input the even number N
+// 4
+// 1 2 3 
+// 3 2 1 
+// 1 2 3 
+

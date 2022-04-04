@@ -15,7 +15,7 @@ public class Task13 {
 		int min = 1;
 		int max = 9;
 
-		System.out.println("Creat the array");
+		System.out.println("Create the array");
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
 				array[i][j] = rn.nextInt((max - min) + 1) + min;
@@ -40,3 +40,19 @@ public class Task13 {
 		System.out.println();
 	}
 }
+
+/*Create the array
+  1 6 9 6 7 6 1 2 
+  2 2 4 9 7 5 5 3 
+  5 3 4 6 1 5 4 9 
+  8 9 7 7 3 4 8 5 
+  2 1 7 7 7 7 2 4 
+  6 8 3 8 8 4 8 8 
+  Output  column 
+  4
+  7 7 1 3 7 8 
+  Output  line 
+  3
+  8 9 7 7 3 4 8 5
+
+*/

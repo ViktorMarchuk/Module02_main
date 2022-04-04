@@ -6,10 +6,13 @@ package by.epam.level02.main;
 public class Task12 {
 
 	public static void main(String[] args) {
-		int[][] array = { { 2, 5, 4, 3, 5 }, { 5, 4, 3, 7, 9 }, { 1, 3, 5, 4, 3 }, { 3, 5, 4, 2, 1 },
-				{ 4, 3, 5, 7, 2 } };
+		int[][] array = { { 2, 5, 4, 3, 5 }, 
+				          { 5, 4, 3, 7, 9 }, 
+				          { 1, 3, 5, 4, 3 }, 
+				          { 3, 5, 4, 2, 1 },
+				          { 4, 3, 5, 7, 2 } };
 
-		System.out.println("Diagonal of the martix from left to the rigth :");
+		System.out.println("Diagonal of the matrix from left to the rigth :");
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
 				if (i == j) {
@@ -24,3 +27,7 @@ public class Task12 {
 		}
 	}
 }
+// Diagonal of the matrix from left to the rigth :
+// 2 4 5 2 2 
+// Diagonal of the matrix from the rigth to the left :
+// 5 7 5 5 4 

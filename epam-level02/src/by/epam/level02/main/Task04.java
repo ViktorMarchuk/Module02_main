@@ -30,6 +30,7 @@ public class Task04 {
 		array[maxIndex] = array[minIndex];
 		array[minIndex] = temp;
 
-		System.out.println(Arrays.toString(array));
+		System.out.println("Result " +Arrays.toString(array));
 	}
 }
+// Result [4, 6, 4, 3, 9, -7, 34, 76]

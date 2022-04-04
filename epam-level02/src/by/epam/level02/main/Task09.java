@@ -15,7 +15,6 @@ public class Task09 {
 		for (int i = 0; i < array.length - 1; i++) {
 			for (int j = i + 1; j < array.length; j++) {
 				if (array[i] == array[j] && array[i] < min) {
-
 					min = array[j];
 				}
 			}
@@ -23,3 +22,4 @@ public class Task09 {
 		System.out.println("Min value " + min);
 	}
 }
+// Min value 1

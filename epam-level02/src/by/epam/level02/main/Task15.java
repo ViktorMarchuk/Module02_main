@@ -19,17 +19,13 @@ public class Task15 {
 			int n = sc.nextInt();
 
 			if (n % 2 == 0) {
-
 				int[][] array = new int[n][n];
-
 				for (int i = 0; i < array.length; i++) {
 					for (int j = array[i].length - 1; j >= 0; j--) {
 						if (i <= j) {
 							System.out.print((i + 1) + " ");
-
 						} else {
 							System.out.print(array[i][j] + " ");
-
 						}
 					}
 					System.out.println();
@@ -40,3 +36,12 @@ public class Task15 {
 		}
 	}
 }
+/* Input the size of array 
+   6
+   1 1 1 1 1 1 
+   2 2 2 2 2 0 
+   3 3 3 3 0 0 
+   4 4 4 0 0 0 
+   5 5 0 0 0 0 
+   6 0 0 0 0 0 
+ */

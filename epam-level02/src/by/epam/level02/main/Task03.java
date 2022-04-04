@@ -40,3 +40,10 @@ public class Task03 {
 		System.out.println("The count of elements Zero is " + countZero);
 	}
 }
+// Enter the dimension of array : 
+// 7
+// Array [4, 8, 4, -2, -1, 1, 7]
+// The count of positive elements is 5
+// The count of negative elements is 2
+// The count of elements Zero is 0
+

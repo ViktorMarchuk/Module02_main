@@ -18,10 +18,12 @@ public class Task01 {
 			if (array[i] % k == 0) {
 				System.out.print(array[i] + " ");
 				sum += array[i];
-
 			}
 		}
 		System.out.println();
 		System.out.println("The amount is " + sum);
 	}
 }
+
+// 24 18 36 12 81 
+// The amount is 171

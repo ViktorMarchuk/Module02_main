@@ -37,9 +37,7 @@ public class Task18 {
 					int column2 = Integer.parseInt(bf.readLine());
 					if (column2 < 0 || column1 == column2) {
 						System.out.println("Input correctly numbers of columnes");
-
 					} else {
-
 						for (int i = 0; i < array.length; i++) {
 							int temp = array[i][column1];
 							array[i][column1] = array[i][column2];
@@ -58,3 +56,20 @@ public class Task18 {
 		}
 	}
 }
+/* Create the matrix
+   8 8 6 7 6 8 
+   5 7 9 7 4 3 
+   5 6 7 9 8 8 
+   2 5 8 9 5 2 
+   8 5 7 8 2 5 
+   8 2 5 2 7 4 
+   Input numbers of columns for replacement
+   4
+   2
+   8 8 6 7 6 8 
+   5 7 4 7 9 3 
+   5 6 8 9 7 8 
+   2 5 5 9 8 2 
+   8 5 2 8 7 5 
+   8 2 7 2 5 4 
+ */

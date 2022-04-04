@@ -8,12 +8,14 @@ public class Task05 {
 
 	public static void main(String[] args) {
 		int[] array = { 0, 4, 56, 6, 34, 89, 7, 1, 0, -2, 12 };
+		System.out.println("Result");
 		for (int i = 0; i < array.length; i++) {
 			if (array[i] > i) {
 
 				System.out.print(array[i] + " ");
 			}
-
 		}
 	}
 }
+// Result
+// 4 56 6 34 89 7 12 

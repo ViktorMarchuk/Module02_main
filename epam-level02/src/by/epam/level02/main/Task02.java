@@ -18,13 +18,11 @@ public class Task02 {
 			if (array[i] > z) {
 				array[i] = z;
 				count++;
-
 			}
 		}
-
 		System.out.println("Quentity of the changes is " + count);
-
 		System.out.println("The array after change is " + Arrays.toString(array));
 	}
-
 }
+// Quentity of the changes is 7
+// The array after change is [5, 4, 5, 5, 5, 5, 5, 1, 3, 5, 5]
